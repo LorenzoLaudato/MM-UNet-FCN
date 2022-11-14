@@ -183,9 +183,9 @@ def get_args():
     parser.add_argument('--classes', '-c', type=int, default=8, help='Number of classes')
     parser.add_argument('--channels', '-n', type=int, default=1, help='Number of input img channels')
     parser.add_argument('--fold', type=int, default=1, help='Number of experiment')
-    parser.add_argument('--visualize', '-v', type=str, default="False", help='Visualize the outputs')
-    parser.add_argument('--spec_level', '-sl', type=str, default="False", help='Test on specimen level')
-    parser.add_argument('--mathematical_morph', '-mm', type=bool, default=False, help='Apply mathematical morphological operators on the output')
+    parser.add_argument('--visualize', '-v', type=int, default=0, help='Visualize the outputs')
+    parser.add_argument('--spec_level', '-sl', type=int, default=1, help='Test on specimen level')
+    parser.add_argument('--mathematical_morph', '-mm', type=int, default=0, help='Apply mathematical morphological operators on the output')
 
 
 
