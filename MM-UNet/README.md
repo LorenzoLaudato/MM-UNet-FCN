@@ -94,7 +94,7 @@ optional arguments:
   --mathematical_morph MATHEMATICAL_MORPH, -mm MATHEMATICAL_MORPH
                         Apply mathematical morphological operators on the
                         output
-
+```
 
 
 You can specify which model file to use with `--model MODEL.pth`.
